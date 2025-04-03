@@ -1,7 +1,7 @@
 # HarmoniX: AI-Powered Onchain Music Tokenization
 
 ## Overview
-HarmoniX is an AI-driven platform built on Zora’s Coins Protocol, enabling creators to transform music into tokenized assets. By leveraging AI to generate, analyze, and enhance music, HarmoniX empowers artists and traders with a seamless way to create, distribute, and monetize their work through onchain mechanisms. This project is part of Zora WaveHack and aims to push the boundaries of onchain music innovation.
+HarmoniX is an AI-driven platform built on Zora’s Coins Protocol, enabling creators to transform music into tokenized assets. By leveraging AI to generate, analyze, and enhance music, HarmoniX empowers artists and traders with a seamless way to create, distribute, and monetize their work through onchain mechanisms.
 
 ## Features
 ### AI-Generated Music Tokenization
