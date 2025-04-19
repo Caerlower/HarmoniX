@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 6%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 6%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 267 100% 71%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 5.9% 10%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 187 100% 42%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 267 100% 71%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 240 10% 4%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 267 100% 71%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 267 100% 71%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+.glass-card {
+  @apply bg-card/90 backdrop-blur-md border border-white/10;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-harmonix-purple via-harmonix-pink to-harmonix-teal bg-clip-text text-transparent;
+}
+
+.gradient-bg {
+  @apply bg-gradient-to-r from-harmonix-purple/20 via-harmonix-pink/20 to-harmonix-teal/20 animate-gradient-shift bg-300;
+}
+
+.btn-primary {
+  @apply relative overflow-hidden flex items-center justify-center gap-2 bg-gradient-to-r from-harmonix-purple to-harmonix-teal rounded-lg px-6 py-3 text-white font-medium transition-all hover:scale-105 hover:shadow-lg hover:shadow-harmonix-purple/30;
+}
+
+.btn-secondary {
+  @apply flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-6 py-3 text-white font-medium transition-all hover:bg-white/15 hover:scale-105;
+}
+
+.visualizer-bar {
+  @apply w-1 rounded-full bg-gradient-to-t from-harmonix-purple to-harmonix-teal;
+}
+
+.bg-300 {
+  background-size: 300% 300%;
+}

@@ -43,6 +43,3 @@ HarmoniX is an AI-driven platform built on Zora’s Coins Protocol, enabling cre
 - **Onchain Innovation:** Seamless integration with Zora’s tokenized economy.
 - **Dynamic Engagement:** Community-driven interactions and rewards.
 - **Scalable & Fast:** Built on Base for high-speed, low-cost transactions.
-
-
-
