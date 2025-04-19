@@ -386,31 +386,31 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
             <div className="fade-in-section opacity-0">
               <TeamCard 
-                name="Emily Matthews"
+                name="ANON"
                 role="CEO & Co-Founder"
                 bio="Former music exec turned Web3 entrepreneur with a passion for empowering independent artists."
                 imageUrl="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
-                twitterHandle="emilymatthews"
+                twitterHandle=""
               />
             </div>
             
             <div className="fade-in-section opacity-0" style={{ animationDelay: '200ms' }}>
               <TeamCard 
-                name="David Park"
+                name="ANON"
                 role="CTO & Co-Founder"
                 bio="AI researcher and blockchain developer with experience building decentralized applications for creative industries."
                 imageUrl="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
-                twitterHandle="davidpark_web3"
+                twitterHandle=""
               />
             </div>
             
             <div className="fade-in-section opacity-0" style={{ animationDelay: '400ms' }}>
               <TeamCard 
-                name="Maya Rodriguez"
+                name="ANON"
                 role="Head of Product"
                 bio="Product leader specializing in Web3 music platforms with a background in UX design and audio engineering."
                 imageUrl="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
-                twitterHandle="maya_builds"
+                twitterHandle=""
               />
             </div>
           </div>
