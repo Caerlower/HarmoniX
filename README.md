@@ -6,7 +6,7 @@ HarmoniX is an AI-driven platform built on Zora’s Coins Protocol, enabling cre
 ## Features
 ### AI-Generated Music Tokenization
 - Use AI models like Riffusion or OpenAI’s Jukebox to generate unique soundtracks.
-- Automatically mint each generated track as an ERC-20 token ($HMX) on Zora.
+- Automatically mint each generated track as an ERC-20 token on zora using coin-sdk.
 - Provide artists with royalties and revenue from token trading.
 
 ### Visual & Metadata Enhancement
@@ -34,7 +34,7 @@ HarmoniX is an AI-driven platform built on Zora’s Coins Protocol, enabling cre
 
 ## How It Works
 1. **Music Creation:** AI generates original soundtracks.
-2. **Tokenization:** Tracks are instantly minted into $HMX tokens.
+2. **Tokenization:** Tracks are instantly minted into their specified tokens.
 3. **Trading & Monetization:** Users can buy, sell, and stake tokens on Zora.
 4. **Community & Growth:** Fans engage with music and artists through tokenized interactions.
 
